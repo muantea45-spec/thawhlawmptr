@@ -40,15 +40,6 @@ export default function BialSidebar({
 
   const bialTools = [
     {
-      id: 'overall',
-      label: 'Overall Summary',
-      shortLabel: 'Overall',
-      icon: CalendarDays,
-      color: 'text-amber-700 bg-amber-50 hover:bg-amber-100 border-amber-200',
-      action: onOpenYearlySummary,
-      tooltip: 'View Bial yearly totals & monthly breakdown'
-    },
-    {
       id: 'export',
       label: 'Export Reports',
       shortLabel: 'Export',
@@ -56,6 +47,15 @@ export default function BialSidebar({
       color: 'text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border-emerald-200',
       action: onOpenExport,
       tooltip: 'Export ledger to Excel or PDF'
+    },
+    {
+      id: 'overall',
+      label: 'Overall Summary',
+      shortLabel: 'Overall',
+      icon: CalendarDays,
+      color: 'text-amber-700 bg-amber-50 hover:bg-amber-100 border-amber-200',
+      action: onOpenYearlySummary,
+      tooltip: 'View Bial yearly totals & monthly breakdown'
     },
     ...(onOpenPasswordModal ? [{
       id: 'password',
