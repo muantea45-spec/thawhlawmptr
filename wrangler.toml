@@ -1,0 +1,10 @@
+name = "thawhlawmptr"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "thawhlawmptr"
+database_id = "a3d1ee85-7166-4831-9931-24252dbbe987"
+

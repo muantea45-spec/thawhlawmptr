@@ -1,0 +1,40 @@
+# Dependencies (Installed automatically on Cloudflare / local npm)
+node_modules/
+**/node_modules/
+
+# Production build output (Generated during build)
+dist/
+dist-ssr/
+build/
+
+# Cloudflare & Wrangler local state
+.wrangler/
+
+# Environment and local secret configs
+.env
+.env.local
+.env.*.local
+
+# Local database files, SQLite databases & backups
+backups/
+data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Executable binaries & build artifacts
+*.exe
+*.dll
+*.pdb
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and OS caches
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
